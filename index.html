@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>시설관리 순찰앱 | 개인정보처리방침</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Malgun Gothic", sans-serif;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+    line-height: 1.7;
+    color: #1a1a1a;
+    background: #ffffff;
+  }
+  h1 { font-size: 1.5rem; margin-bottom: 4px; }
+  h2 { font-size: 1.15rem; margin-top: 2em; border-bottom: 1px solid #eee; padding-bottom: 6px; }
+  .date { color: #666; font-size: 0.9rem; margin-bottom: 2em; }
+  .table-wrap { overflow-x: auto; }
+  table { border-collapse: collapse; width: 100%; margin: 1em 0; }
+  th, td { border: 1px solid #ddd; padding: 10px; text-align: left; vertical-align: top; }
+  th { background: #f5f5f5; }
+  a { color: #1163e0; }
+</style>
+</head>
+<body>
+
+<h1>시설관리 순찰앱 개인정보처리방침</h1>
+<p class="date">시행일: 2026년 10월 10일</p>
+
+<p>"시설관리 순찰앱"(이하 "본 앱")은 juwonj88(이하 "개발자")이 만든 애플리케이션입니다. 개발자는 이용자의 개인정보를 소중히 여기며, 다음과 같이 개인정보처리방침을 안내합니다.</p>
+
+<h2>1. 수집하는 개인정보</h2>
+<p><strong>본 앱은 개발자나 제3자에게 어떠한 개인정보도 수집하거나 전송하지 않습니다.</strong></p>
+<p>이용자가 앱에 입력하거나 앱에서 만든 아래 정보는 <strong>이용자의 기기 안에만</strong> 저장됩니다.</p>
+<div class="table-wrap">
+<table>
+  <tr><th>정보</th><th>용도</th><th>저장 위치</th></tr>
+  <tr><td>근무자 ID(이름)</td><td>순찰·근태 기록에 근무자를 표시</td><td>기기 내부 저장소</td></tr>
+  <tr><td>순찰 기록(체크포인트, 위치, 시간)</td><td>순찰 이력 관리 및 보고서 작성</td><td>기기 내부 데이터베이스</td></tr>
+  <tr><td>근태 기록(출근·퇴근 시간, 지각·조퇴 여부)</td><td>출퇴근 관리 및 보고서 작성</td><td>기기 내부 데이터베이스</td></tr>
+  <tr><td>순찰 구역 도면 사진</td><td>순찰 구역 안내</td><td>기기 내부 저장소</td></tr>
+  <tr><td>QR 스캔 순간의 현장 사진</td><td>순찰 실시 확인(근무 리포트 첨부)</td><td>앱 전용 내부 저장소 (갤러리에 저장되지 않음)</td></tr>
+  <tr><td>관리자 메일 주소</td><td>근무 리포트 받는 사람 자동 입력</td><td>기기 내부 저장소</td></tr>
+  <tr><td>관리자 PIN, QR 비밀키, 앱 설정</td><td>관리자 기능 보호 및 QR 검증</td><td>기기 내부 저장소</td></tr>
+</table>
+</div>
+<ul>
+  <li>회원가입, 광고, 분석(애널리틱스), 위치 추적 기능이 없습니다.</li>
+  <li>개발자는 이용자의 기록이나 앱 사용 내역을 받지 않습니다.</li>
+</ul>
+
+<h3>구글 시트 연동 (선택 기능)</h3>
+<p>관리자가 <strong>구글 시트 연동</strong>을 설정한 경우에 한해 아래 정보가 <strong>관리자 본인의 구글 시트·구글 드라이브</strong>로 암호화(HTTPS) 전송됩니다.</p>
+<ul>
+  <li>출퇴근 기록: 근무자 이름, 구분, 근무일, 출근·퇴근 시각, 근무시간, 지각·조퇴 여부, 기기 식별용 임의 코드</li>
+  <li>순찰 기록: 근무자 이름, 스캔 시각, 체크포인트, 위치, 상태, QR 고유번호</li>
+  <li>QR 스캔 순간의 현장 사진 (관리자 드라이브의 "순찰사진" 폴더에 저장)</li>
+</ul>
+<ul>
+  <li>전송 대상은 관리자가 직접 만들고 소유한 구글 시트이며, 개발자는 이 데이터에 접근할 수 없습니다.</li>
+  <li>전송된 데이터의 보관과 삭제는 관리자(구글 시트 소유자)가 관리하며, 관리자는 구글 시트에서 언제든 삭제할 수 있습니다.</li>
+  <li>관리자가 연동을 설정하지 않으면 어떤 데이터도 전송되지 않습니다.</li>
+</ul>
+
+<h2>2. 앱이 사용하는 기기 권한</h2>
+<div class="table-wrap">
+<table>
+  <tr><th>권한</th><th>사용 목적</th></tr>
+  <tr><td>카메라</td><td>순찰 지점의 QR 코드 스캔(인식 순간의 화면을 현장 사진으로 보관), 순찰 구역 도면 촬영</td></tr>
+  <tr><td>인터넷</td><td>관리자가 설정한 경우 출퇴근 기록을 관리자의 구글 시트로 전송합니다. 개발자 서버로는 어떤 기록도 전송하지 않습니다.</td></tr>
+</table>
+</div>
+<ul>
+  <li>QR을 인식하는 순간의 카메라 화면 1장을 현장 사진으로 앱 전용 저장소에 보관합니다. 이 사진은 갤러리나 다른 앱에서 보이지 않으며, 근무 리포트에 첨부된 뒤 이용자가 "전송 완료"를 누르면 삭제되고, 보내지 않은 사진도 7일이 지나면 자동으로 삭제됩니다.</li>
+  <li>현장 사진에는 주변 사람이 찍힐 수 있으니, 촬영 사실을 근무자에게 미리 알려주세요.</li>
+  <li>그 밖의 카메라 영상은 저장되거나 전송되지 않습니다. 이용자가 직접 촬영한 도면 사진은 기기에 저장됩니다.</li>
+  <li>도면 사진을 고를 때는 안드로이드 시스템 사진 선택기를 사용하며, 이용자가 고른 사진에만 접근합니다.</li>
+</ul>
+
+<h2>3. 제3자 제공 및 공유</h2>
+<ul>
+  <li>본 앱은 이용자의 정보를 제3자에게 제공하지 않습니다.</li>
+  <li>이용자가 "엑셀로 보내기", "PDF로 보내기", "카카오톡으로 보내기", "관리자 메일로 보내기" 버튼을 직접 누르면, 안드로이드 공유 기능을 통해 <strong>이용자가 고른 앱</strong>(카카오톡, 메일 등)으로 보고서 파일(현장 사진 포함)이 전달됩니다. 이후의 처리는 해당 앱의 개인정보처리방침을 따릅니다.</li>
+</ul>
+
+<h2>4. 보관 및 파기</h2>
+<ul>
+  <li>모든 정보는 이용자가 앱 안에서 삭제하거나 앱을 삭제할 때까지 기기에 보관됩니다.</li>
+  <li>순찰 로그와 근태 기록은 앱 안의 삭제 기능으로 지울 수 있고, 앱을 삭제하면 모든 데이터가 함께 지워집니다.</li>
+</ul>
+
+<h2>5. 아동의 개인정보</h2>
+<p>본 앱은 업무용 앱으로 아동을 대상으로 하지 않으며, 만 14세 미만 아동의 개인정보를 수집하지 않습니다.</p>
+
+<h2>6. 개인정보처리방침의 변경</h2>
+<p>본 방침은 관련 법령, 정책, 앱 기능이 바뀌면 수정될 수 있으며, 변경 내용은 이 페이지에 공지합니다.</p>
+
+<h2>7. 문의처</h2>
+<p>개인정보와 관련해 문의가 있으시면 아래 이메일로 연락해 주세요.</p>
+<p>이메일: <a href="mailto:juwonj88@gmail.com">juwonj88@gmail.com</a></p>
+
+</body>
+</html>
